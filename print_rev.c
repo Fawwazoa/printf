@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - Entry point
+ * print_reve - Entry point
  * @va: pointer to be converted
  *
  * Return: no return
