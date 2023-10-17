@@ -12,7 +12,8 @@ int _printf(const char *format, ...)
 	int i = 0, j, len = 0, count;
 	va_list valist;
 	types difftypes[] = {{'c', print_char}, {'s', print_str}, {'d', print_num},
-			     {'i', print_num}, {'b', print_binary}};
+			     {'i', print_num}, {'b', print_binary}, {'u', print_unsnum},
+			     {'x', print_hexa}, {'X', hexa_upper}, {'o', print_oc}};
 
 	if (format == NULL || (format[0] == '%' && format[1] == 0))
 		return (-1);
