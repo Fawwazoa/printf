@@ -2,7 +2,8 @@
 
 /**
  * print_char - prints a character
- * @val: argument 
+ * @val: argument
+ *
  * return: 0
  */
 
