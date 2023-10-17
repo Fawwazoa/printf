@@ -23,5 +23,13 @@ int print_unsnum(va_list va);
 int print_oc(va_list va);
 int print_hexa(va_list va);
 int hexa_upper(va_list va);
+int print_pointer(va_list va);
+int print_rot(va_list va);
+char *malloc_str(char *str);
+char *rot13(char *p);
+int print_reve(va_list va);
+int print_strhexa(va_list va);
+int hexa_pointer(unsigned long int c);
+int print_hexas(unsigned int c);
 
 #endif
