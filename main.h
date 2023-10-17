@@ -1,6 +1,17 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#include <stdarg.h>
+#include <unistd.h>
+#include <stdio.h>
+#include <limits.h>
+#include <stdlib.h>
+
+typedef struct types_arguments
+{
+	char t;
+	int (*f)(va_list va);
+} types;
 int _putchar(char c);
 int _printf(const char *format, ...);
 int print_char(va_list val);

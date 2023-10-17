@@ -12,3 +12,4 @@ int print_char(va_list val){
 	s = va_arg(val, int);
 	_putchar(s); 
 	return(0);
+}
