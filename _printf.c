@@ -12,7 +12,7 @@ int _printf(const char *format, ...)
 	int i = 0, j, len = 0, count;
 	va_list valist;
 	types difftypes[] = {{'c', print_char}, {'s', print_str}, {'d', print_num},
-			     {'i', print_num}, {'b', print_binary}, {'%', print_prc}};
+			     {'i', print_num}, {'b', print_binary}};
 
 	if (format == NULL || (format[0] == '%' && format[1] == 0))
 		return (-1);
